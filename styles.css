@@ -1,5 +1,9 @@
 @import "~bootstrap-reboot";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: franklin-gothic-urw, sans-serif;
     font-weight: 300;
@@ -46,7 +50,18 @@ body {
     max-width: 75rem;
     width: auto;
     padding-left: 5rem;
+}
 
+.AtlasLegs {
+    max-width: 75%;
+
+}
+
+.aboutCont {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
 }
 
 .row-padding {
@@ -79,6 +94,11 @@ body {
 
 .about_card {
     max-width: 100%;
+}
+
+.project-card {
+    max-height: 45rem;
+    max-width: 35rem;
 }
 
 /* .carousel-control-next,
@@ -154,17 +174,7 @@ body {
     color: #0062cc;
 }
 
-.contact-form .btnContact {
-    /* width: 50%; */
-    /* border: none; */
-    /* border-radius: 1rem; */
-    /* padding: 1.5%; */
-    /* margin-top: 4%; */
-    /* background: #dc3545; */
-    /* font-weight: 600; */
-    /* color: #fff; */
-    /* cursor: pointer; */
-}
+
 
 .btnContactSubmit {
     width: 50%;
@@ -275,4 +285,27 @@ ul.social-network li {
 
 .social-network a {
     background-color: #F9F9F9;
+}
+
+/* SMOOTH SCROLL */
+
+/* .module {
+    scroll-behavior: [ auto | smooth];
+} */
+
+.scrolling-box {
+    /* background-color: #eaeaea; */
+    /* display: block; */
+    /* height: 200px; */
+    /* overflow-y: scroll; */
+    scroll-behavior: smooth;
+    /* text-align: center; */
+    /* width: 200px; */
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
