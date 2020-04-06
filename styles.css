@@ -11,8 +11,8 @@ body {
 }
 
 .title-header {
-    font-family: joschmi, sans-serif;
-    font-weight: 400;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 3rem;
 }
@@ -81,9 +81,11 @@ body {
 }
 
 .test2 {
-    padding-top: 2%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+
 }
+
+
 
 .carousel-item img {
     width: 10%;
@@ -100,11 +102,6 @@ body {
     max-height: 45rem;
     max-width: 35rem;
 }
-
-/* .carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-} */
 
 .carousel-control-prev-icon {
     background-image: url("resources/icons/chevron-left-duotone.svg");
@@ -155,12 +152,8 @@ body {
     width: 70%;
 }
 
-.contact-form .form-control {
-    border-radius: 1rem;
-}
-
 .contact-form form {
-    padding: 14%;
+    padding: 10%;
 }
 
 .contact-form form .row {
