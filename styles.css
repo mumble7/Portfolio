@@ -30,24 +30,70 @@ body {
   color: black;
 }
 
-.matt-hero {
-  /* height: 1200px; */
-  /* width: 100%; */
-  background-image: url(/resources/images/Asset1_vt5dkd/small.png);
-  /* background-size: cover; */
-
+#matt-hero {
+  background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas200.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100vh;
+  display: flex;
   /* height: 100%; */
   /* width: 100%; */
   /* z-index: -2; */
 }
-@media only screen and (min-device-width: 400px) {
-  .matt-hero {
-    background-image: url("/resources/images/Asset1_vt5dkd/medium.png");
+@media (max-width: 200px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas200.jpg);
   }
 }
-@media only screen and (min-device-width: 800px) {
-  .matt-hero {
-    background-image: url("/resources/images/Asset1_vt5dkd/large.png");
+@media (min-width: 201px) and (max-width: 418px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas418.jpg);
+  }
+}
+@media (min-width: 419px) and (max-width: 588px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas588.jpg);
+  }
+}
+@media (min-width: 589px) and (max-width: 727px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas727.jpg);
+  }
+}
+@media (min-width: 728px) and (max-width: 861px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas861.jpg);
+  }
+}
+@media (min-width: 862px) and (max-width: 975px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas975.jpg);
+  }
+}
+@media (min-width: 976px) and (max-width: 1103px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas1103.jpg);
+  }
+}
+@media (min-width: 1104px) and (max-width: 1218px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas1218.jpg);
+  }
+}
+@media (min-width: 1218px) and (max-width: 1325px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas1325.jpg);
+  }
+}
+@media (min-width: 1326px) and (max-width: 1400px) {
+  #matt-hero {
+    background-image: url(/resources/images/MattAndAtlas1_s2tioj/MattAndAtlas1400.jpg);
+  }
+}
+@media (min-width: 1400px) {
+  #matt-hero {
+    background-image: url(/resources/images/Asset1_vt5dkd/xlarge.png);
   }
 }
 
